@@ -1,0 +1,21 @@
+{
+  "name": "svt-assessment",
+  "version": "1.0.0",
+  "description": "Robot routing API",
+  "main": "index.ts",
+  "author": "Andre Newman <andre.d.newman@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "debug": "node --inspect=5858 ./out/index.js --noTimeout --httpPort 5001"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.3",
+    "dotenv": "^16.0.3",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
